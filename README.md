@@ -11,6 +11,9 @@
 
 # node-red-contrib-bacnet
 
+This is an experimental fork of https://flows.nodered.org/node/node-red-contrib-bacnet, to work with my very old BASRT-B router. Use at your own risk.
+
+
 Building Automation and Control Networks Protocol toolbox for Node-RED.
 
 ## Install
