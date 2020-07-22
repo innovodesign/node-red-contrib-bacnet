@@ -5,7 +5,7 @@
   "description": "The BACnet toolbox package for Node-RED.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BiancoRoyal/node-red-contrib-bacnet.git"
+    "url": "git+https://github.com/innovodesign/node-red-contrib-bacnet.git"
   },
   "dependencies": {
     "debug": "~4.1.1",
@@ -22,7 +22,7 @@
   "author": "Bianco Royal <developers@bianco-royal.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BiancoRoyal/node-red-contrib-bacnet/issues"
+    "url": "https://github.com/innovodesign/node-red-contrib-bacnet/issues"
   },
   "node-red": {
     "nodes": {
@@ -37,7 +37,7 @@
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://github.com/BiancoRoyal/node-red-contrib-bacnet#readme",
+  "homepage": "https://github.com/innovodesign/node-red-contrib-bacnet#readme",
   "scripts": {
     "test": "standard --fix && mocha test --recursive --reporter dot --timeout 5000",
     "test-with-coverage": "istanbul cover _mocha --report lcovonly -- --recursive --timeout 5000 -R spec && cat ./coverage/lcov.info | codacy-coverage --token $CODACY_COVERAGE_TOKEN && rm -rf ./coverage",
